@@ -1,0 +1,53 @@
+- Automation Requirements
+Q1w
+From the websites, what is defined as "appropriate" and "necessary" information, for the user's needs?
+Answered: 1 Skipped: 0
+Historically, content has been short bulletins of information containing no more than a few sentences. In some cases, these have been even shorter and represented small facts related to the user’s content choice. The goal is to send out informative content which does not detract from the user’s available time, thereby increasing consumption.
+
+Q2w
+Does the user provide the websites they want the content to be aggregated from, or will the websites be outsourced by the company? 
+Answered: 1 Skipped: 0
+We choose the sites, users just choose their content preference. We've used Wikipedia, BBC News, Fact of the day sites, Reddit etc. For development purposes I'll leave it up to you but would be nice to see some configuration
+
+Q3w
+The user email is mimicked using the 1+ method, whilst the company email is mimicked by the QA email. This method worked for when the company sends the content back to a specific user (i.e myname+1@gmail.com, received their desired aggregated content) however, in the scope it specifies that the user sends their details (i.e name address, etc...) to the company, via email. However, due to using the +1 method for Gmail, there isn't a real email that is being used, so either way, they're all being sent from myname@gmail.com, not myname+1@gmail.com. How does the company get around this? 
+Answered: 1 Skipped: 0
+Personal Details consist of a user’s first name, last name, their address, phone number details, email address, content (subject) preference and content frequency (daily or weekdays only. So in terms of the scenario above regardless of the email sender the users email should be detailed in the email itself. I'll get an example to send over.
+
+Q4w
+When the user data is stored in a database, where would it be stored and accessed? 
+Answered: 1 Skipped: 0
+We use Informix but speaking to the DBA's they've said "Personal Details are stored in a database and assigned a unique ID. For development purposes and without access to the Company’s systems, an appropriate storage method must be assumed by QAC Consultants."
+
+Q5w
+What does the company mean when they state " the user then starts to receive their content at the intervals detailed at registration ". What intervals does the company refer to, and what are the preferences of intervals?
+Answered: 1 Skipped: 0
+Intervals remain to be daily or weekdays only but there is some discussion about expanding that out to include a weekly option as well.
+
+Q6w
+What is the company's definition of "clean" and "readable" content; as these terms can be subjective?
+Answered: 1 Skipped: 0
+We tend to remove any spurious text or headings so they receive a nice concise piece of information...Historically, content has been short bulletins of information containing no more than a few sentences. In some cases, these have been even shorter and represented small facts related to the user’s content choice. The goal is to send out informative content which does not detract from the user’s available time, thereby increasing consumption.
+
+Q7w
+What form of data recording does the company prefer to use, when recording user action/information? (Assuming data is used for appropriate actions, such as Audits)
+Answered: 1 Skipped: 0
+User request emails are typically archived in suitable folders so as to keep a record of these requests for Audit purposes. Aside from keeping user request emails, the action requested, and the execution of that action is recorded to act as a reference in the event of a customer query.
+
+Q8w
+During the Sign-Up/registration, what information fields does the user need to fill-in? (Apart from  their name and address, what does the company require?) 
+Answered: 1 Skipped: 0
+Personal Details consist of a user’s first name, last name, their address, phone number details, email address, content (subject) preference and content frequency (daily or weekdays only).
+
+Q9w
+How do you guys organize and store your databases, for the topics that are being referred to, are you grouping all the people in the database by content category, or by another field?
+Answered: 1 Skipped: 0
+Not sure, I'd have to speak to the DBA's. That said for development the team have said that's up to you to choose something that works for now - when we go live we'll move across to the DB
+
+Q10w
+When users are asked for content preferences, the scope states that the content will be pulled from 3 different websites (minimum), however, can a user ask for different categories to be aggregated, i.e. games and sports. OR will the user be limited to having one category as a content preference and information from 3 different sites will be pulled, in relation to that category?
+Answered: 1 Skipped: 0
+1 category although we're thinking of expanding that out in the future
+
+
+

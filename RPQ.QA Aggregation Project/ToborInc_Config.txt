@@ -1,0 +1,42 @@
+[
+
+{
+
+"RanFn": "https://www.bestrandoms.com/random-names",
+"RanLn": "https://www.bestrandoms.com/random-last-names",
+"RanAddNum": "https://www.bestrandoms.com/random-address-in-uk",
+"UserDB": "C:\\Users\\Daryl Atienza\\Desktop\\RPA\\RPQ.QA Aggregation Project\\User Database.xlsx"
+
+},
+
+{
+
+
+"WoD": "https://thisiswod.com/",
+"AZD": "https://www.azdancecoalition.org/dance-resources/dance-articles/",
+"DMag": "https://www.dancemagazine.com/news/",
+"SkyS": "https://www.skysports.com/news-wire",
+"NBC": "https://www.nbcnews.com/news/sports/",
+"Fox": "https://www.foxnews.com/sports",
+"BBC": "https://www.bbc.co.uk/news/topics/c008ql15vdxt/gaming",
+"GameIn": "https://www.dw.com/en/9-random-facts-for-video-games-day/g-19387464",
+"PCG": "https://www.pcgamer.com/uk/news/"
+
+},
+
+{
+
+"ToborIncEmail": "qatoborinc@outlook.com",
+"UserReceipt": "Content Aggregation: New User Receipt",
+"UserUpReceipt": "Content Aggregation: User Details Updated",
+"UserDelReceipt": "Content Aggregation: Unsubscription",
+"ToborIncRepW": "C:\\Users\\Daryl Atienza\\Desktop\\RPA\\RPQ.QA Aggregation Project\\ToborInc_Report.docx",
+"ToborIncRepPDF": "C:\\Users\\Daryl Atienza\\Desktop\\RPA\\RPQ.QA Aggregation Project\\ToborIncReport.PDF"
+
+}
+
+
+
+
+
+]
